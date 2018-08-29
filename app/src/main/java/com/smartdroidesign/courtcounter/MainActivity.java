@@ -25,9 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button reset;
 
-//    public int scoreAValue = 0;
-//    public int scoreBValue = 0;
-
     public int scoreForA = 0;
     public int scoreForB = 0;
 
@@ -114,32 +111,32 @@ public class MainActivity extends AppCompatActivity {
 
     public void plusThreePointsA() {
         scoreForA += 3;
-        scoreA.setText("" + scoreForA);
+        scoreA.setText(String.valueOf(scoreForA));
     }
 
     public void plusTwoPointsA() {
         scoreForA += 2;
-        scoreA.setText("" + scoreForA);
+        scoreA.setText(String.valueOf(scoreForA));
     }
 
     public void freeThrowA() {
         scoreForA += 2;
-        scoreA.setText("" + scoreForA);
+        scoreA.setText(String.valueOf(scoreForA));
     }
 
     public void plusThreePointsB() {
         scoreForB += 3;
-        scoreB.setText("" + scoreForB);
+        scoreB.setText(String.valueOf(scoreForB));
     }
 
     public void plusTwoPointsB() {
         scoreForB += 2;
-        scoreB.setText("" + scoreForB);
+        scoreB.setText(String.valueOf(scoreForB));
     }
 
     public void freeThrowB() {
         scoreForB += 2;
-        scoreB.setText("" + scoreForB);
+        scoreB.setText(String.valueOf(scoreForB));
     }
 
 
